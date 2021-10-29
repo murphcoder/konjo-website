@@ -15,8 +15,7 @@ ActiveRecord::Schema.define(version: 2021_10_25_225644) do
   create_table "klasses", force: :cascade do |t|
     t.string "name"
     t.string "photo_url"
-    t.integer "min_age"
-    t.integer "max_age"
+    t.string "ages"
     t.text "description"
     t.string "signup_link"
     t.datetime "created_at", precision: 6, null: false

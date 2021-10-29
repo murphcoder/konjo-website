@@ -15,7 +15,7 @@ class App extends React.Component {
           <NavBar />
           <Switch>
             <Route exact path='/' component={Home} />
-            <Route exact path='/classes/:klassId' component={KlassLoader} />
+            <Route exact path='/classes/:klassId' component={KlassMenu} />
           </Switch>
          </div>
          <Contacts />

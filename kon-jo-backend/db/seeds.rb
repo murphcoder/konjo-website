@@ -62,6 +62,53 @@ adult = Klass.find_by(name: "Adult Karate")
 
 sessions = [
     {
-
+        start_date: Date.new(2021, 9, 1),
+        end_date: Date.new(2021, 10, 6),
+        start_time: Time.new(2001, 1, 1, 18, 0, 0),
+        end_time: Time.new(2001, 1, 1, 18, 30, 0),
+        notes: "None",
+        klass: lilTiger
     },
+    {
+        start_date: Date.new(2021, 9, 2),
+        end_date: Date.new(2021, 10, 7),
+        start_time: Time.new(2001, 1, 1, 17, 15, 0),
+        end_time: Time.new(2001, 1, 1, 17, 45, 0),
+        notes: "None",
+        klass: lilTiger
+    },
+    {
+        start_date: Date.new(2021, 10, 13),
+        end_date: Date.new(2021, 11, 17),
+        start_time: Time.new(2001, 1, 1, 18, 0, 0),
+        end_time: Time.new(2001, 1, 1, 18, 30, 0),
+        notes: "None",
+        klass: lilTiger
+    },
+    {
+        start_date: Date.new(2021, 10, 14),
+        end_date: Date.new(2021, 11, 18),
+        start_time: Time.new(2001, 1, 1, 17, 15, 0),
+        end_time: Time.new(2001, 1, 1, 17, 45, 0),
+        notes: "None",
+        klass: lilTiger
+    },
+    {
+        start_date: Date.new(2021, 12, 1),
+        end_date: Date.new(2021, 12, 29),
+        start_time: Time.new(2001, 1, 1, 18, 0, 0),
+        end_time: Time.new(2001, 1, 1, 18, 30, 0),
+        notes: "None",
+        klass: lilTiger
+    },
+    {
+        start_date: Date.new(2021, 12, 2),
+        end_date: Date.new(2021, 12, 30),
+        start_time: Time.new(2001, 1, 1, 17, 15, 0),
+        end_time: Time.new(2001, 1, 1, 17, 45, 0),
+        notes: "None",
+        klass: lilTiger
+    }
 ]
+
+Session.create(sessions)

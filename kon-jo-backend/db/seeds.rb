@@ -52,3 +52,16 @@ klasses = [
 ]
 
 Klass.create(klasses)
+
+lilTiger = Klass.find_by(name: "Li'l Tigers Karate")
+youth = Klass.find_by(name: "Youth Karate")
+disabled = Klass.find_by(name: "Karate For Students With Different Abilities")
+homeSchool = Klass.find_by(name: "Home School Karate")
+family = Klass.find_by(name: "Family Karate")
+adult = Klass.find_by(name: "Adult Karate")
+
+sessions = [
+    {
+
+    },
+]
